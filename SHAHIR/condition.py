@@ -223,7 +223,14 @@
 #l=""
 #i=0
 #while (i<=len(a)-1):
-#    if(a[i]in l):
+#    if(a[i]in l):a=[1,2,3,4,5,6]
+# i=0
+# x=[]
+# while i<len(a):
+#     if a[i] % 2 == 0:
+#         x.append(a[i])
+#     i=i+1
+# print("even numbers",x)  
 #        count+=1
 #        l+=a[i]
 #        d[a[i]]=count
@@ -290,5 +297,184 @@
 #     i=i+1
 # print(sum)    
 
+
+#FIND THE EVEN NUMBERS IN A LIST
+
+# a=[1,2,3,4,5,6]
+# i=0
+# x=[]
+# while i<len(a):
+#     if a[i] % 2 == 0:
+#         x.append(a[i])
+#     i=i+1
+# print("even numbers",x)        
+
+
+
+
+
+#CAPITALIZE FIRST LETTER OF A WORD IN A STRING
+
+# a=["hello","car","anime"]
+# c=[]
+# i=0
+# while i<len(a):
+#     c.append(a[i].capitalize())
+#     i=i+1
+# print(c)
+
+
+
+#SQ(LIST) USING FOR LOOP
+
+# a=[1,2,3,4,5]
+# d=[]
+# for n in a:
+#    d.append(n**2) 
+# print(d)
+
+
+
+#SUM OF SQ OF  3 INPUT NUMBERS USING FOR LOOP
+
+# num=[]
+# for i in range(3):
+#     x=int(input("enter number:"))
+#     num.append(x)
+# sum=0
+# for n in num:
+#     sum+=n**2
+# print("sum of sq:",sum)    
+                  
+
+
+#FIND THE LARGEST INTEGER IN THE LIST
+
+
+# a=[1,2,3,4,5]
+# i=0
+# x=a[0]
+# while i<len(a):
+#     if a[i]>x:
+#       x=a[i]
+#     i=i+1
+# print("largest integer:",x)        
+
+
+
+
+
+#NUMBER OF WORDS IN A STRING
+
+# a=input("enter the string:")
+# x = len(a.split())
+# print ("Number Of Words: ",x)
+
+
+# a="hello python"
+# count=1
+# i=0
+# while i<len(a):
+#     if (a[i]==' '):
+#         count=count+1
+#     i=i+1
+# print(count)    
+
+
+
+# TAKE A LIST OF STRINGS AND PRINT NEW LIST CONTAINING ONLY MORE THAN 5 CHARACTERS
+
+# a=["hyy","python"]
+# i=0
+# d=[]
+# while i<len(a):
+#     if len(a[i])>5:
+#         d.append(a[i])
+#     i=i+1
+# print(d)
+
+
+
+
+#STAR  PATTERN USING FOR LOOP
+
+# for i in range (0,5):
+#     for j in range (0,i+1):
+#         print("*",end=" ")
+#     print() 
+
+# for i in range (5,-1,-1):
+#     for j in range (0,i):
+#         print("*",end=" ")
+#     print() 
+
+
+# n=5
+# for i in range(1,n+1):
+#     print(" "* (n-i)+ "*" *i) 
+        
+  
+# n=5
+# for i in range(n,0,-1):   
+#     print(" "* (n-i)+ "*" *i)  
+
+
+#NUMBER PYRAMID
+
+# for i in range(1,5):
+#     for j in range(1,i+1):
+#         print(j,end=" ")
+#     print()    
+                    
+
+
+# n=5
+# for i in range (0,n):
+#     for j in range(1,i+1):
+#         print(j*2-1,end=" ")
+#     print()    
+
+
+
+# n=5
+# for i in range (0,n):
+#     for j in range(1,i+1):
+#         print(j*2,end=" ")
+#     print() 
+
+
+
+
+
+# n=4
+# x=1
+# for i in range (0,n):
+#     for j in range(0,i+1):
+#         print(x*2-1,end=" ")
+#         x=x+1
+#     print()  
+
+
+
+
+# n=3
+# x=1
+# for i in range (0,n):
+#     for j in range(0,i+1):
+#         print(x*2,end=" ")
+#         x=x+1
+#     print()   
+
+
+# x=1
+# n=3
+# stop=2
+# for i in range (n):
+#     for j in range(1,stop):
+#         print(x,end=" ")
+#         x=x+1
+#     print()
+#     stop+=2
+   
 
 
