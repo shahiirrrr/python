@@ -478,3 +478,246 @@
    
 
 
+
+# for i in range(65,68):
+#     for j in range(65,i+1):
+#         print(chr(j),end=" ")
+#     print()    
+ 
+
+
+# for i in range(65,68):
+#     x=i
+#     for j in range(65,i+1):
+#         print(chr(x),end=" ")
+#     x=x+1
+#     print() 
+
+
+
+# x=65
+# for i in range(0,3):
+#     for j in range(0,i+1):
+#         a=chr(x)
+#         print(a,end=" ")
+#         x=x+1
+#     print()    
+
+
+# x=4
+# for i in range(1,x+1):
+#     for j in range(1,i+1):
+#         if j==1 or j==i:
+#             print(1,end=" ")
+#         else:
+#             print(2,end=" ")
+#     print()                  
+
+
+
+
+# x=4
+# p=7
+# for i in range (1,x+1):
+#     for k in range (0,p):
+#          print(end=" ")
+#     p=p-2     
+#     print(" " * (x-1),end=" ")
+#     for j in range (1,i+1):
+#          print(j,end=" ")
+#     for j in range(i-1,0,-1):
+#          print(j,end=" ")
+#     print()  
+
+
+# p=7
+# for i in range (0,5):
+    
+#     for k in range (0,p):
+#         print(end= "  " )
+#     p=p-1    
+#     print( "*" ,end=" ")
+#     for j in range (i,0,-1):
+#         print(chr(65),end=" ")
+#         print( "*" ,end=" ")
+#     print()    
+      
+
+
+# x=6
+# for i in range(x,0,-1):
+#     for j in range(0,i):
+#         print("*",end=" ")
+#     print()    
+# for i in range(1,6):
+#     for j in range(0,i+1):
+#         print("*",end=" ")
+#     print()   
+
+
+
+# n=3
+# p=1
+# m=1
+# for k in range(0,p):
+#     print("*")
+#     p=p-1
+# for i in range(1,n+1):
+#     print("*",end="")
+#     for j in range (1,i+1):
+#         print(j, end=" ")
+#     for j in range(i-1,0,-1):
+#         print(j,end=" ")
+#     print("*") 
+# for i in range(n-1,0,-1):
+#     print("*",end="")
+#     for j in range (1,i+1):
+#         print(j,end=" ")
+#     for j in range (i-1,0,-1):
+#         print(j,end=" ")
+#     print("*") 
+# for a in range(0,m):
+#     print("*")
+#     m=m-1  
+#     print()            
+
+ 
+
+# a=[1,2,3,4,5,6]
+# b=[7,8,9,10,11]
+# d=[ ]
+# for num in a:
+#     if num %2!=0:
+#         d.append(num)
+# for num in b:
+#     if num %2==0:
+#         d.append(num)
+# print(d)
+
+
+
+# a=[1,1,2,2,3,3,4]
+# d=(set(a))
+# print(d)
+
+
+
+# a=input("enter a string: ")
+# d=""
+# for i in range(len(a)):
+#     if i %2==0:
+#       d+=a[i]
+# print(d)      
+    
+    
+
+
+# a=int(input("start: "))
+# b=int(input("stop: "))
+# if a%2!=0:
+#     a=a+1
+# while a<=b:
+#     print(a)
+#     a+=2
+     
+
+
+
+
+#COUNT OF VOWELS IN A STRING
+
+# a=input("enter the string: ")
+# count=0
+# for i in a:
+#       if(i=='a' or i=='e' or i=='i' or i=='o' or i=='u' or i=='A' or i=='E' or i=='I' or i=='O' or i=='U'):
+#          count=count+1
+# print("number of vowels: ",count)    
+         
+
+
+
+
+# THE STRING IS PALINDROME OR NOT
+
+# a=input("enter the string: ")
+# b=""
+# for i in a:
+#     b=i+b
+# if (a==b):
+#     print("palindrome")
+# else:
+#     print("not a palindrome")       
+
+
+
+
+   
+
+
+# a=input("enter the string: ")
+# words=a.split()
+# d=""
+# for w in words:
+#     if w==w[::-1]:
+#         for i in range(len(w)):
+#             c=len(w)*"@"
+#         d=d+c
+#     else:
+#             d=d+w
+#     d=d+" "
+# print(d)                
+
+
+
+
+# for i in range(65,68):
+#     for j in range(i,64,-1):
+#         print(chr(j),end="")
+#     print()
+
+
+
+
+# n=5
+# for i in range (n,-1,-1):
+#     for j in range (i+1):
+#         if j==0 or j==i or i==n:
+#             print("* ", end="")
+#         else:
+#             print(" ",end=" ")    
+#     print()
+
+
+
+
+
+
+# n=5
+# for i in range(n):
+#     for j in range(n):
+#         if ((i==0 or i==n //2) or j==0):
+#             print("*",end="")
+#         else:
+#             print(" ",end="")
+#     print()            
+
+
+
+  
+# d=10
+# year=366
+# result=d*year
+# print("total  distance: ",result)
+
+
+
+# maths=int(input("maths score:"))
+# phy=int(input("phy score:"))
+# che=int(input("che score:"))
+# if (maths>=55 and phy>=50 and che>=50 and maths+phy>=140):
+#     result="pass"
+# else:
+#     result="fail"
+# print("result:" + result)        
+
+
